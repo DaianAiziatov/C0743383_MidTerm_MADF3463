@@ -26,7 +26,7 @@ public class MidTermMain {
         System.out.println("Input: " + input6 + "\nOutput: " + lambtonStringTools.mostFrequent(input6));
 
 
-                System.out.println("\nREPLACE SUB STRING");
+        System.out.println("\nREPLACE SUB STRING");
         String input7 = "the dog jumped over the fence";
         System.out.println("Input: " + input7 + "\nOutput: " + lambtonStringTools.replaceSubString(input7, "the", "that"));
     }

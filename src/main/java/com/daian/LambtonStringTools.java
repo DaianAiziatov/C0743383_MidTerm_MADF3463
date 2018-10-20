@@ -87,8 +87,8 @@ public class LambtonStringTools {
                 }
             }
         }
-        int max = 0;
-        int maxIndex = 0;
+        int max = 1;
+        int maxIndex = chars.length - 1;
         for (int i = 0; i < count.length; i++) {
             if (count[i] > max) {
                 max = count[i];
